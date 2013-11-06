@@ -21,7 +21,7 @@
 \usepackage{ifpdf}
 \ifpdf
   \usepackage[unicode]{hyperref}
-  \input glyphtounicode \pdfgentounicode=1
+   \input glyphtounicode \pdfgentounicode=1
 \else
   \usepackage[unicode,dvipdfm]{hyperref}
 \fi
@@ -43,6 +43,9 @@
 
 \usepackage{tikz}
 \usepackage{pifont}
+%\usepackage{amsmath}
+\usepackage{caption}
+\usepackage{subcaption}
 
 % see the list of further useful packages
 % in the Reference Guide
@@ -76,6 +79,7 @@
 \mainmatter%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \include{part}
 \include{chapter}
+\include{chapter_e4}
 \include{appendix}
 
 \backmatter%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
